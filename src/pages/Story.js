@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../styles/WhoWeAre.css";
 import founder from "../images/founder.jpeg";
-import logo from "../images/logo.jpeg";
+import logo from "../images/logo.png";
 
 function Story() {
     const [isExpanded, setExpanded] = useState(false);

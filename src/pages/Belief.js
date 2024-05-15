@@ -1,80 +1,83 @@
 import React, { useState } from 'react';
-import "../styles/WhoWeAre.css";
+import "../styles/Belief.css";
 import featured1 from "../images/featured1.jpeg";
-import logo from "../images/logo.jpeg";
+import logo from "../images/logo.png";
 
 function Belief() {
     return (
-        <div className="who-we-are">
-            <div className="content-header">
-                <img src={featured1} alt="Our Organization" className="who-we-are-image" />
-            </div>
+        <>
+            <div className="who-we-are">
+                <div className="content-header">
+                    <img src={featured1} alt="Our Organization" className="who-we-are-image" />
+                </div>
 
-            <h1 style={{ textAlign: 'center' }}>Our Belief System</h1>
-            <div className='impact'>
-                <div className='row'>
-                    <img src={logo} style={{ height: "180px", width: "300px", margin: "auto" }} />
-                    <p>
-                        We believe in the potential of every young person to make a difference.
-                    </p>
-                </div>
-                <div className='row'>
-                    <img src={logo} style={{ height: "180px", width: "300px", margin: "auto" }} />
-                    <p>
-                        We advocate for fairness and inclusivity for all individuals.
-                    </p>
-                </div>
-                <div className='row'>
-                    <img src={logo} style={{ height: "180px", width: "300px", margin: "auto" }} />
-                    <p>
-                        Integrity is fundamental to everything we do.
-                    </p>
-                </div>
-                <div className='row'>
-                    <img src={logo} style={{ height: "180px", width: "300px", margin: "auto" }} />
-                    <p>
-                        Collaboration and partnership are essential for impactful outcomes.
+                <h1 style={{ textAlign: 'center' }}>Our Belief System</h1>
+                <div className='impact'>
+                    <div className='row'>
+                        <img src={logo} style={{ height: "170px", width: "auto" }} />
+                        <p>
+                            We believe in the potential of every young person to make a difference.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <img src={logo} style={{ height: "170px", width: "auto" }} />
+                        <p>
+                            We advocate for fairness and inclusivity for all individuals.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <img src={logo} style={{ height: "170px", width: "auto" }} />
+                        <p>
+                            Integrity is fundamental to everything we do.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <img src={logo} style={{ height: "170px", width: "auto" }} />
+                        <p>
+                            Collaboration and partnership are essential for impactful outcomes.
 
-                    </p>
-                </div>
-                <div className='row'>
-                    <img src={logo} style={{ height: "180px", width: "300px", margin: "auto" }} />
-                    <p>Innovation and creativity drive our efforts to address challenges.
-                    </p>
-                </div>
-                <div className='row'>
-                    <img src={logo} style={{ height: "180px", width: "300px", margin: "auto" }} />
-                    <p>
-                        Respect for diversity and dignity guides our interactions.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <img src={logo} style={{ height: "170px", width: "auto" }} />
+                        <p>Innovation and creativity drive our efforts to address challenges.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <img src={logo} style={{ height: "170px", width: "auto" }} />
+                        <p>
+                            Respect for diversity and dignity guides our interactions.
 
-                    </p>
-                </div>
-                <div className='row'>
-                    <img src={logo} style={{ height: "180px", width: "300px", margin: "auto" }} />
-                    <p>
-                        We take responsibility for our actions and decisions.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <img src={logo} style={{ height: "170px", width: "auto" }} />
+                        <p>
+                            We take responsibility for our actions and decisions.
 
-                    </p>
-                </div>
-                <div className='row'>
-                    <img src={logo} style={{ height: "180px", width: "300px", margin: "auto" }} />
-                    <p>
-                        Continuous learning and growth are key to our success.
-                    </p>
-                </div>
-                <div className='row'>
-                    <img src={logo} style={{ height: "180px", width: "300px", margin: "auto" }} />
-                    <p>
-                        Sustainability is central to our mission.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <img src={logo} style={{ height: "170px", width: "auto" }} />
+                        <p>
+                            Continuous learning and growth are key to our success.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <img src={logo} style={{ height: "170px", width: "auto" }} />
+                        <p>
+                            Sustainability is central to our mission.
 
-                    </p>
-                </div>
-                <div className='row'>
-                    <img src={logo} style={{ height: "180px", width: "300px", margin: "auto" }} />
-                    <p>
-                        Accountability ensures transparency and trust in our organization.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <img src={logo} style={{ height: "170px", width: "auto" }} />
+                        <p>
+                            Accountability ensures transparency and trust in our organization.
 
-                    </p>
+                        </p>
+                    </div>
+
                 </div>
 
             </div>
@@ -104,7 +107,7 @@ function Belief() {
                     <p>southsudanyouthnetwork.scholars@gmail.com</p>
                 </div>
             </footer>
-        </div>
+        </>
 
     );
 }

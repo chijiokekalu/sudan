@@ -1,62 +1,64 @@
 import React, { useState } from 'react';
 import "../styles/WhoWeAre.css";
 import featured1 from "../images/featured1.jpeg";
-import logo from "../images/logo.jpeg";
+import logo from "../images/logo.png";
 
 function OurValue() {
     return (
-        <div className="who-we-are">
-            <div className="content-header">
-                <img src={featured1} alt="Our Organization" className="who-we-are-image" />
-            </div>
-
-            <h1 style={{ textAlign: 'center' }}>Our Core Values</h1>
-            <div className='impact'>
-                <div className='row'>
-                    <h1> Diversity and Inclusiveness</h1>
-                    <p>
-                        We value and promote the equal participation and representation of all young people, regardless of their background or identity.
-                    </p>
+        <>
+            <div className="who-we-are">
+                <div className="content-header">
+                    <img src={featured1} alt="Our Organization" className="who-we-are-image" />
                 </div>
-                <div className='row'>
-                    <h1>Integrity
-                    </h1>
-                    <p>
-                        We uphold honesty and ethical behavior in all our actions and decisions, being accountable to our stakeholders.
-                    </p>
-                </div>
-                <div className='row'>
-                    <h1>
-                        Transformation
 
-                    </h1>
-                    <p>
-                        We believe in the power of positive influence and dedicated efforts to uplift individuals and communities toward meaningful change.
+                <h1 style={{ textAlign: 'center' }}>Our Core Values</h1>
+                <div className='impact'>
+                    <div className='row'>
+                        <h1> Diversity and Inclusiveness</h1>
+                        <p>
+                            We value and promote the equal participation and representation of all young people, regardless of their background or identity.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <h1>Integrity
+                        </h1>
+                        <p>
+                            We uphold honesty and ethical behavior in all our actions and decisions, being accountable to our stakeholders.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <h1>
+                            Transformation
 
-                    </p>
-                </div>
-                <div className='row'>
-                    <h1>Respect
-                    </h1>
-                    <p>
-                        We treat everyone with dignity and fairness, fostering a culture of tolerance and acceptance.
+                        </h1>
+                        <p>
+                            We believe in the power of positive influence and dedicated efforts to uplift individuals and communities toward meaningful change.
 
-                    </p>
-                </div>
-                <div className='row'>
-                    <h1>Servant-hood Leadership
-                    </h1>
-                    <p>We emphasize leadership that prioritizes serving others, inspired by the example of selflessness.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <h1>Respect
+                        </h1>
+                        <p>
+                            We treat everyone with dignity and fairness, fostering a culture of tolerance and acceptance.
 
-                    </p>
-                </div>
-                <div className='row'>
-                    <h1>Empowerment
-                    </h1>
-                    <p>
-                        We believe in providing education, skills development, and opportunities to empower young people to contribute positively to society.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <h1>Servant-hood Leadership
+                        </h1>
+                        <p>We emphasize leadership that prioritizes serving others, inspired by the example of selflessness.
 
-                    </p>
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <h1>Empowerment
+                        </h1>
+                        <p>
+                            We believe in providing education, skills development, and opportunities to empower young people to contribute positively to society.
+
+                        </p>
+                    </div>
                 </div>
             </div>
             <footer className="footer">
@@ -85,7 +87,7 @@ function OurValue() {
                     <p>southsudanyouthnetwork.scholars@gmail.com</p>
                 </div>
             </footer>
-        </div>
+        </>
 
     );
 }

@@ -1,52 +1,55 @@
 import React, { useState } from 'react';
 import "../styles/WhoWeAre.css";
-import featured1 from "../images/featured1.jpeg";
-import logo from "../images/logo.jpeg";
+import strategy from "../images/strategy.jpeg";
+import logo from "../images/logo.png";
 
 function StrategicFrameworks() {
     return (
-        <div className="who-we-are">
-            <div className="content-header">
-                <img src={featured1} alt="Our Organization" className="who-we-are-image" />
-            </div>
+        <>
+            <div className="who-we-are">
+                <div className="content-header">
+                    <img src={strategy} alt="Our Organization" className="who-we-are-image" />
+                </div>
 
-            <h1 style={{ textAlign: 'center' }}>Strategic Framework</h1>
-            <div className='impact'>
-                <div className='row'>
-                    <h1>Strategic Partnerships</h1>
-                    <p>
-                        We aim to cultivate strategic partnerships with local and international organizations, government agencies, and community leaders. By leveraging collective resources and expertise, we amplify our impact and reach.
+                <h1 style={{ textAlign: 'center' }}>Strategic Framework</h1>
+                <div className='impact'>
+                    <div className='row'>
+                        <h1>Strategic Partnerships</h1>
+                        <p>
+                            We aim to cultivate strategic partnerships with local and international organizations, government agencies, and community leaders. By leveraging collective resources and expertise, we amplify our impact and reach.
 
-                    </p>
-                </div>
-                <div className='row'>
-                    <h1>Resource Mobilization</h1>
-                    <p>
-                        We employ diverse resource mobilization strategies to secure funding and support for our programs. This includes grant writing, fundraising events, corporate partnerships, and individual donations.
-                    </p>
-                </div>
-                <div className='row'>
-                    <h1>
-                        Capacity Building
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <h1>Resource Mobilization</h1>
+                        <p>
+                            We employ diverse resource mobilization strategies to secure funding and support for our programs. This includes grant writing, fundraising events, corporate partnerships, and individual donations.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <h1>
+                            Capacity Building
 
-                    </h1>
-                    <p>We invest in the capacity building of our staff, volunteers, and beneficiaries to enhance program effectiveness and sustainability. This includes training, mentorship, and professional development opportunities.
+                        </h1>
+                        <p>We invest in the capacity building of our staff, volunteers, and beneficiaries to enhance program effectiveness and sustainability. This includes training, mentorship, and professional development opportunities.
 
-                    </p>
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <h1>Advocacy and Policy Influence
+                        </h1>
+                        <p>
+                            We engage in advocacy efforts to influence policy decisions and promote systemic change. By advocating for policies that prioritize education, youth empowerment, and peacebuilding, we create an enabling environment for our work.
+                        </p>
+                    </div>
+                    <div className='row'>
+                        <h1>Monitoring and Evaluation
+                        </h1>
+                        <p>We aim to implement robust monitoring and evaluation systems to assess the impact of our programs and inform decision-making. By collecting and analyzing data on key performance indicators, we continuously improve program quality and outcomes.
+                        </p>
+                    </div>
                 </div>
-                <div className='row'>
-                    <h1>Advocacy and Policy Influence
-                    </h1>
-                    <p>
-                        We engage in advocacy efforts to influence policy decisions and promote systemic change. By advocating for policies that prioritize education, youth empowerment, and peacebuilding, we create an enabling environment for our work.
-                    </p>
-                </div>
-                <div className='row'>
-                    <h1>Monitoring and Evaluation
-                    </h1>
-                    <p>We aim to implement robust monitoring and evaluation systems to assess the impact of our programs and inform decision-making. By collecting and analyzing data on key performance indicators, we continuously improve program quality and outcomes.
-                    </p>
-                </div>
+
             </div>
             <footer className="footer">
                 <div className="footer-logo">
@@ -74,7 +77,7 @@ function StrategicFrameworks() {
                     <p>southsudanyouthnetwork.scholars@gmail.com</p>
                 </div>
             </footer>
-        </div>
+        </>
 
     );
 }
