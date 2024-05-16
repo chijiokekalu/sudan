@@ -1,0 +1,38 @@
+/* Navbar.css */
+.navbar {
+    background-color: wine;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* DropdownMenu.css */
+.dropdown {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown ul li a {
+    display: block;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown ul li a:hover {
+    background-color: #f1f1f1;
+}
