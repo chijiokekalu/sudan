@@ -111,7 +111,7 @@ function Home() {
                     <h3>Contact Us</h3>
                     <p>P.O. Box 29, Juba, South Sudan, Central Equatoria State, Internally Displaced Camp_Poc3</p>
                     <p>+211 929 415 361, +250 792 577 523</p>
-                    <p>southsudanyouthnetwork.scholars@gmail.com</p>
+                    <p>southsudanyouthnetwork.scholars<br />@gmail.com</p>
                 </div>
             </footer>
         </>
