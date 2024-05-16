@@ -1,20 +1,20 @@
 import React from 'react';
 import "../styles/Home.css";
-import background from '../images/background.jpeg';
+// import background from '../images/background.jpeg';
 import mapImage from '../images/map.jpeg';
-import featured1 from '../images/featured1.jpeg';
-import featured2 from '../images/featured2.jpeg';
-import featured3 from '../images/featured3.jpeg';
-import featured4 from '../images/featured4.jpeg';
-import founder from '../images/founder.jpeg';
+// import featured1 from '../images/featured1.jpeg';
+// import featured2 from '../images/featured2.jpeg';
+// import featured3 from '../images/featured3.jpeg';
+// import featured4 from '../images/featured4.jpeg';
+// import founder from '../images/founder.jpeg';
 import featured5 from '../images/featured5.jpeg';
-import slums from '../images/slums.jpeg';
+// import slums from '../images/slums.jpeg';
 import logo from '../images/logo.png';
 import education from '../images/education1.jpeg';
 import education2 from '../images/education2.jpeg';
-import education3 from '../images/education3.jpeg';
-import education4 from '../images/education4.jpeg';
-import education5 from '../images/education5.jpeg';
+// import education3 from '../images/education3.jpeg';
+// import education4 from '../images/education4.jpeg';
+// import education5 from '../images/education5.jpeg';
 import education6 from '../images/education6.jpeg';
 
 
