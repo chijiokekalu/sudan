@@ -8,7 +8,15 @@ import featured3 from '../images/featured3.jpeg';
 import featured4 from '../images/featured4.jpeg';
 import founder from '../images/founder.jpeg';
 import featured5 from '../images/featured5.jpeg';
+import slums from '../images/slums.jpeg';
 import logo from '../images/logo.png';
+import education from '../images/education1.jpeg';
+import education2 from '../images/education2.jpeg';
+import education3 from '../images/education3.jpeg';
+import education4 from '../images/education4.jpeg';
+import education5 from '../images/education5.jpeg';
+import education6 from '../images/education6.jpeg';
+
 
 function Home() {
     return (
@@ -24,6 +32,7 @@ function Home() {
             </div>
 
             <div className="about-us">
+
                 <img src={mapImage} alt="Map of South Sudan" className="map-image" />
                 <div className="about-content">
                     <h2>About South Sudan</h2>
@@ -32,24 +41,22 @@ function Home() {
                 </div>
             </div>
 
+            <div className="about-us">
+                <div className='about-content'>
+                    <h2>Why Does Education(SDG-4) Matter?</h2>
+                </div>
+            </div>
+
             <div className="feature-section">
-                <img src={featured1} alt="Feature" className="feature-image" />
+                <img src={education6} alt="Feature" className="feature-image" />
                 <div className="feature-content">
                     <h3>Quality Education: Unlocking Potential</h3>
                     <p>Education is not just a privilege; it's a fundamental human right. As Nelson Mandela wisely stated, "Education is the most powerful weapon which you can use to change the world." Beyond imparting knowledge, education empowers individuals, providing them with the tools to overcome obstacles, fulfill aspirations, and uplift communities. It serves as the bedrock of progress, offering pathways to opportunity while fostering personal growth and understanding.</p>
-                    <img src={featured2} alt="Feature" className="feature-image" />
-                </div>
-            </div>
-            <div className="feature-section">
-                <img src={featured2} alt="Feature" className="feature-image" />
-                <div className="feature-content">
-                    <h3>Quality Education: Unlocking Potential</h3>
-                    <p>Quality education is essential for both youth and  child's holistic development, personal empowerment, and future prospects. It acts as the key to unlocking each youth and child's unique potential, nurturing creativity, talent, and imagination. By fostering collaboration, critical thinking, and problem-solving skills, education cultivates confident, well-rounded individuals capable of contributing meaningfully to society. Moreover, it broadens youth and children's perspectives, igniting curiosity and paving the way for endless possibilities.</p>
-                </div>
 
+                </div>
             </div>
             <div className="feature-section">
-                <img src={featured3} alt="Feature" className="feature-image" />
+                <img src={education} alt="Feature" className="feature-image" />
                 <div className="feature-content">
                     <h3>
                         Education: A Catalyst for Change
@@ -60,7 +67,7 @@ function Home() {
 
 
             <div className="feature-section">
-                <img src={founder} alt="Feature" className="feature-image" />
+                <img src={education2} alt="Feature" className="feature-image" />
                 <div className="feature-content">
                     <h3>
                         Our Commitment to Education

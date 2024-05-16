@@ -17,6 +17,7 @@ import Articles from './pages/Articles';
 import Donate from './pages/Donate';
 import JoinUs from './pages/JoinUs';
 import Partners from './pages/Partners';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/donate" element={<Donate />} />
           <Route path="/join-us" element={<JoinUs />} />
           <Route path="/partners" element={<Partners />} />
+          <Route path="/contact-us" element={<Contact />} />
 
         </Routes>
       </div>

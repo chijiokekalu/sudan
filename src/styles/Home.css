@@ -24,23 +24,23 @@ body {
     }
 
     20% {
-        background-image: url('../images/featured3.jpeg');
+        background-image: url('../images/background1.jpeg');
     }
 
     40% {
-        background-image: url('../images/featured2.jpeg');
+        background-image: url('../images/background2.jpeg');
     }
 
     60% {
-        background-image: url('../images/featured5.jpeg');
+        background-image: url('../images/background3.jpeg');
     }
 
     80% {
-        background-image: url('../images/featured1.jpeg');
+        background-image: url('../images/background4.jpeg');
     }
 
     100% {
-        background-image: url('../images/featured4.jpeg');
+        background-image: url('../images/background5.jpeg');
     }
 }
 

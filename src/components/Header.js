@@ -38,7 +38,7 @@ function Header() {
                             )}
                         </li>
                         <li onClick={() => toggleDropdown('programs')}>
-                            <span>Programs</span>
+                            <span className='header-link'>Programs</span>
                             {dropdown === 'programs' && (
                                 <div className="dropdown-content">
                                     <Link to="/programs" onClick={toggleMenu}>Programs</Link>
@@ -48,7 +48,7 @@ function Header() {
                             )}
                         </li>
                         <li onClick={() => toggleDropdown('resources')}>
-                            <span>Resources</span>
+                            <span className='header-link'>Resources</span>
                             {dropdown === 'resources' && (
                                 <div className="dropdown-content">
                                     <Link to="/impact" onClick={toggleMenu}>Our Impact</Link>
@@ -59,7 +59,7 @@ function Header() {
                         </li>
                         <li><Link to="/media" className='header-link' onClick={toggleMenu}>Galleries</Link></li>
                         <li onClick={() => toggleDropdown('action')}>
-                            <span>Take Action</span>
+                            <span className='header-link'>Take Action</span>
                             {dropdown === 'action' && (
                                 <div className="dropdown-content">
                                     <Link to="/donate" onClick={toggleMenu}>Donate</Link>
@@ -68,6 +68,7 @@ function Header() {
                                 </div>
                             )}
                         </li>
+                        <li><Link to="/contact-us" className='header-link' onClick={toggleMenu}>Contact Us</Link></li>
                     </ul>
                 </nav>
             </div>
